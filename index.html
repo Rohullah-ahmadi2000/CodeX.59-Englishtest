@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>quiz app for junior student</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="app.css">
+</head>
+
+<body>
+  <div class="logincontainer">
+    <!-- navbar section -->
+    <nav>
+      <img src="images/logo.png" alt="">
+      <i id="opennavbutton" class="fas fa-bars"></i>
+
+      <ol id="navlinks">
+        <i id="closenavbutton" class="fas fa-x"></i>
+        <li><a href="#" id="home"><i class="fas fa-home"></i> home</a></li>
+        <li><a href="#"><i class="fas fa-users"></i> about us</a></li>
+        <li><a href="#"><i class="fas fa-share-alt"></i> Share this app</a></li>
+      </ol>
+    </nav>
+
+
+    <!-- introduction -->
+    <div id="intro" class="intro">
+      <h3><span style=" font-size: 30px;">Wellcome</span><br> To CodeX English Test Center</h3>
+      <a id="start" class="button">Start Your Test</a>
+      <form id="loginform">
+        <span>
+          <p>Your First Name</p>
+          <input id="name" type="text" placeholder="type here.....">
+        </span>
+        <span>
+          <p>Your Last Name</p>
+          <input id="lastname" type="text" placeholder="type here ......">
+        </span>
+        <div class="conditions">
+          <p>Before Your Start the test</p>
+          <ol>
+            <li>During the test, do not refresh the page</li>
+            <li>the questions are multiple choice and you have to select one</li>
+            <li>At the end, You can recive the result</li>
+          </ol>
+        </div>
+
+      </form>
+    </div>
+
+    <div id="popup" class="popup">
+      <p>Select An Option:</p>
+      <button id="interm"> intermediate Test</button>
+      <button id="advance">Advanced Test</button>
+      <button id="words">Key Words width meaning and usage</button>
+      <div class="footer">
+        <p style="color:white; font-size: 12px; font-family: cursive;">CodeX Team: <span>Wish you the best of all
+            choices</span></p>
+        <a href="https://rohullah-ahmadi2000.github.io/CodeX.59/"
+          style="text-decoration: none;font-size: 12px;color:gold">click to Enter our Site</a>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="test">
+    <div class="pretest" id="intermediattest">
+      <h3>Start your pre-test</h3>
+      <div class="question">
+        <form action="https://formspree.io/f/xvgvrzll" method="POST">
+          <div class="information">
+            <p>Wellcome dear: </p>
+            <input name="firstname" class="name" id="name1">
+            <input name="lastname" class="lastname" id="lastname1">
+          </div>
+          <ul>
+            <ol>
+              <li>What do you usually do on weekends?</li><input name="What do you usually do on weekends?" type="text"
+                required>
+              <li>How do you get to school or work every day?</li><input
+                name="How do you get to school or work every day?" type="text" required>
+              <li>What is your favorite type of food?</li><input name="What is your favorite type of food?" type="text"
+                required>
+              <li>Can you describe your best friend?</li><input name="Can you describe your best friend?" type="text"
+                required>
+              <li>Where did you go on your last vacation?</li><input name="Where did you go on your last vacation?"
+                type="text" required>
+              <li>What kind of movies do you like to watch?</li><input name="What kind of movies do you like to watch?"
+                type="text" required>
+              <li>How often do you use social media?</li><input name="How often do you use social media?" type="text"
+                required>
+              <li>What is something you’re good at?</li><input name="What is something you’re good at?" type="text"
+                required>
+              <li>Who is your favorite singer or band?</li><input name="Who is your favorite singer or band?"
+                type="text" required>
+              <li>What time do you usually get up in the morning?</li><input
+                name="What time do you usually get up in the morning?" type="text" required>
+              <li>What are your hobbies or free-time activities?</li><input
+                name="What are your hobbies or free-time activities?" type="text" required>
+              <li>What do you like about your city or town?</li><input name="What do you like about your city or town?"
+                type="text" required>
+              <li>Can you describe your house or apartment?</li><input name="Can you describe your house or apartment?"
+                type="text" required>
+              <li>What do you do to stay healthy?</li><input name="What do you do to stay healthy?" type="text"
+                required>
+              <li>Do you prefer tea or coffee? Why?</li><input name="Do you prefer tea or coffee? Why?" type="text"
+                required>
+              <li>What is your favorite season of the year?</li><input name="What is your favorite season of the year?"
+                type="text" required>
+              <li>What did you do yesterday evening?</li><input name="What did you do yesterday evening?" type="text"
+                required>
+              <li>What kind of job would you like to have in the future?</li><input
+                name="What kind of job would you like to have in the future?" type="text" required>
+              <li>Do you like reading books or watching TV more?</li><input
+                name="Do you like reading books or watching TV more?" type="text" required>
+              <li>How do you usually spend your holidays?</li><input name="How do you usually spend your holidays?"
+                type="text" required>
+              <li>What’s something new you learned recently?</li><input
+                name="What’s something new you learned recently?" type="text" required>
+              <li>How do you celebrate your birthday?</li><input name="How do you celebrate your birthday?" type="text"
+                required>
+              <li>What’s your favorite school subject?</li><input name="What’s your favorite school subject?"
+                type="text" required>
+              <li>Do you prefer to travel by car, bus, or plane?</li><input
+                name="Do you prefer to travel by car, bus, or plane?" type="text" required>
+              <li>What is one thing you want to improve about yourself?</li><input
+                name="What is one thing you want to improve about yourself?" type="text" required>
+              <li>Who do you usually spend time with on weekends?</li><input
+                name="Who do you usually spend time with on weekends?" type="text" required>
+              <li>Do you like cooking? Why or why not?</li><input name="Do you like cooking? Why or why not?"
+                type="text" required>
+              <li>What was the last movie you watched?</li><input name="What was the last movie you watched?"
+                type="text" required>
+              <li>What kind of weather do you like the most?</li><input
+                name="What kind of weather do you like the most?" type="text" required>
+              <li>How often do you go shopping?</li><input name="How often do you go shopping?" type="text" required>
+              <li>What do you usually have for breakfast?</li><input name="What do you usually have for breakfast?"
+                type="text" required>
+              <li>Do you like animals? Do you have a pet?</li><input name="Do you like animals? Do you have a pet?"
+                type="text" required>
+              <li>What’s your favorite sport to watch or play?</li><input
+                name="What’s your favorite sport to watch or play?" type="text" required>
+              <li>Do you prefer to live in a city or in the countryside?</li><input
+                name="Do you prefer to live in a city or in the countryside?" type="text" required>
+              <li>What is your dream country to visit?</li><input name="What is your dream country to visit?"
+                type="text" required>
+              <li>What time do you usually go to bed?</li><input name="What time do you usually go to bed?" type="text"
+                required>
+              <li>What do you do when you feel bored?</li><input name="What do you do when you feel bored?" type="text"
+                required>
+              <li>Do you enjoy learning English? Why?</li><input name="Do you enjoy learning English? Why?" type="text"
+                required>
+              <li>What’s the best holiday you’ve ever had?</li><input name="What’s the best holiday you’ve ever had?"
+                type="text" required>
+              <li>What’s something you can’t live without?</li><input name="What’s something you can’t live without?"
+                type="text" required>
+              <li>Who is your favorite teacher? Why?</li><input name="Who is your favorite teacher? Why?" type="text"
+                required>
+              <li>What’s one goal you have for this year?</li><input name="What’s one goal you have for this year?"
+                type="text" required>
+              <li>Do you like to study alone or with friends?</li><input
+                name="Do you like to study alone or with friends?" type="text" required>
+              <li>What’s your favorite color and why?</li><input name="What’s your favorite color and why?" type="text"
+                required>
+              <li>What kind of clothes do you like to wear?</li><input name="What kind of clothes do you like to wear?"
+                type="text" required>
+              <li>What’s the most interesting place you’ve visited?</li><input
+                name="What’s the most interesting place you’ve visited?" type="text" required>
+              <li>Do you prefer watching movies at home or in the cinema?</li><input
+                name="Do you prefer watching movies at home or in the cinema?" type="text" required>
+              <li>What kind of apps do you use most on your phone?</li><input
+                name="What kind of apps do you use most on your phone?" type="text" required>
+              <li>What’s one thing that makes you happy?</li><input name="What’s one thing that makes you happy?"
+                type="text" required>
+              <li>How do you usually spend your weekends?</li><input name="How do you usually spend your weekends?"
+                type="text" required>
+              <li>What’s something you’re afraid of?</li><input name="What’s something you’re afraid of?" type="text"
+                required>
+            </ol>
+            <input type="submit" value="Check Answers">
+            <input class="giveupinput" id="closetest" value="give up">
+        </form>
+      </div>
+    </div>
+
+    <!-- advance question -->
+    <div class="pretest" id="intermediattest1">
+      <h3>Start your Advanced test</h3>
+      <div class="question">
+        <form action="https://formspree.io/f/xvgvrzll" method="POST">
+          <!-- questions are placed here -->
+          <form id="advancedEnglishForm">
+            <ol>
+              <li>Rephrase 'He made a mistake' more formally.</li>
+              <input name='Rephrase He made a mistake more formally.' type="text" required>
+
+              <li>Difference between 'used to' and 'would' for past habits?</li>
+              <input name='Difference between used to and would for past habits?' type="text" required>
+
+              <li>Make passive: 'The committee will finish the report by Friday.'</li>
+              <input name='Make passive The committee will finish the report by Friday.' type="text" required>
+
+              <li>Choose the right modal: 'She ____ left already.'</li>
+              <input name='Choose the right modal She ____ left already.' type="text" required>
+
+              <li>What effect does anaphora have?</li>
+              <input name='What effect does anaphora have?' type="text" required>
+
+              <li>Compare subjunctives: 'I suggest he leave' vs 'If I were you.'</li>
+              <input name='Compare subjunctives I suggest he leave vs If I were you.' type="text" required>
+
+              <li>Correct: 'He took a dislike about the idea.'</li>
+              <input name='Correct He took a dislike about the idea.' type="text" required>
+
+              <li>Give 3 collocations with 'make,' 'take,' 'do.'</li>
+              <input name='Give 3 collocations with make take do.' type="text" required>
+
+              <li>Reduce: 'The man who was standing is my cousin.'</li>
+              <input name='Reduce The man who was standing is my cousin.' type="text" required>
+
+              <li>Meaning difference: 'Could you pass' vs 'Pass the salt.'</li>
+              <input name='Meaning difference Could you pass vs Pass the salt.' type="text" required>
+
+              <li>Use inversion for emphasis.</li>
+              <input name='Use inversion for emphasis.' type="text" required>
+
+              <li>Replace 'We regret to inform you' with casual/formal versions.</li>
+              <input name='Replace We regret to inform you with casual formal versions.' type="text" required>
+
+              <li>Explain past perfect continuous vs simple past.</li>
+              <input name='Explain past perfect continuous vs simple past.' type="text" required>
+
+              <li>Make a cleft sentence from 'They discovered the error.'</li>
+              <input name='Make a cleft sentence from They discovered the error.' type="text" required>
+
+              <li>Meaning of 'hardly' in negatives?</li>
+              <input name='Meaning of hardly in negatives?' type="text" required>
+
+              <li>Modern version of 'A stitch in time saves nine.'</li>
+              <input name='Modern version of A stitch in time saves nine.' type="text" required>
+
+              <li>Correct punctuation: 'My brother who lives in Berlin is a chef.'</li>
+              <input name='Correct punctuation My brother who lives in Berlin is a chef.' type="text" required>
+
+              <li>3 formal synonyms for 'happy.'</li>
+              <input name='3 formal synonyms for happy.' type="text" required>
+
+              <li>Change to mixed conditional: 'If she had studied, she’d pass now.'</li>
+              <input name='Change to mixed conditional If she had studied she’d pass now.' type="text" required>
+
+              <li>Fix: 'Neither of the options are acceptable.'</li>
+              <input name='Fix Neither of the options are acceptable.' type="text" required>
+
+              <li>How do 'well,' 'so,' 'anyway' work in speech?</li>
+              <input name='How do well so anyway work in speech?' type="text" required>
+
+              <li>Nominalize: 'They decided to investigate the problem.'</li>
+              <input name='Nominalize They decided to investigate the problem.' type="text" required>
+
+              <li>Difference between 'historic' and 'historical.'</li>
+              <input name='Difference between historic and historical.' type="text" required>
+
+              <li>Use a participle clause: 'While reading, he fell asleep.'</li>
+              <input name='Use a participle clause While reading he fell asleep.' type="text" required>
+
+              <li>Explain 'lend' vs 'borrow.'</li>
+              <input name='Explain lend vs borrow.' type="text" required>
+
+              <li>Fix dangling modifier: 'Running to catch the bus, my hat flew off.'</li>
+              <input name='Fix dangling modifier Running to catch the bus my hat flew off.' type="text" required>
+
+              <li>'I regret to say' vs 'I regret saying'—difference?</li>
+              <input name='I regret to say vs I regret saying difference?' type="text" required>
+
+              <li>Use 'no sooner...than' correctly.</li>
+              <input name='Use no sooner than correctly.' type="text" required>
+
+              <li>'Few' vs 'a few'—difference?</li>
+              <input name='Few vs a few difference?' type="text" required>
+
+              <li>How do hedge words like 'might' or 'seem' work?</li>
+              <input name='How do hedge words like might or seem work?' type="text" required>
+
+              <li>Change to reported speech: 'She said, I finished the project.'</li>
+              <input name='Change to reported speech She said I finished the project.' type="text" required>
+
+              <li>Example of a 'what' nominal clause.</li>
+              <input name='Example of a what nominal clause.' type="text" required>
+
+              <li>Combine sentences: 'The plan was complex. It failed.'</li>
+              <input name='Combine sentences The plan was complex It failed.' type="text" required>
+
+              <li>'Must go' vs 'have to go'—difference?</li>
+              <input name='Must go vs have to go difference?' type="text" required>
+
+              <li>Use a phrasal verb with 'carry' and explain it.</li>
+              <input name='Use a phrasal verb with carry and explain it.' type="text" required>
+
+              <li>What does fronting do in a sentence?</li>
+              <input name='What does fronting do in a sentence?' type="text" required>
+
+              <li>Choose article: 'She gave me ____ unique chance.'</li>
+              <input name='Choose article She gave me unique chance.' type="text" required>
+
+              <li>Give 5 discourse markers and their uses.</li>
+              <input name='Give 5 discourse markers and their uses.' type="text" required>
+
+              <li>Simplify: 'The new engine is more efficient than the old one.'</li>
+              <input name='Simplify The new engine is more efficient than the old one.' type="text" required>
+
+              <li>When do we use 'whom' vs 'who'?</li>
+              <input name='When do we use whom vs who?' type="text" required>
+
+              <li>'Raise' vs 'rise'—difference?</li>
+              <input name='Raise vs rise difference?' type="text" required>
+
+              <li>Make a polite negative question.</li>
+              <input name='Make a polite negative question.' type="text" required>
+
+              <li>Effect of short vs long sentences in writing?</li>
+              <input name='Effect of short vs long sentences in writing?' type="text" required>
+
+              <li>Give an example of ellipsis in dialogue.</li>
+              <input name='Give an example of ellipsis in dialogue.' type="text" required>
+
+              <li>Reduce: 'Students who were selected attended.'</li>
+              <input name='Reduce Students who were selected attended.' type="text" required>
+
+              <li>Why say 'commit a crime' not 'do a crime'?</li>
+              <input name='Why say commit a crime not do a crime?' type="text" required>
+
+              <li>Explain prescriptive vs descriptive grammar.</li>
+              <input name='Explain prescriptive vs descriptive grammar.' type="text" required>
+
+              <li>Replace 'good' with a more academic term.</li>
+              <input name='Replace good with a more academic term.' type="text" required>
+
+              <li>Use 'not only... but also' with parallel form.</li>
+              <input name='Use not only but also with parallel form.' type="text" required>
+
+              <li>Explain modal perfects like 'might have' and 'must have.'</li>
+              <input name='Explain modal perfects like might have and must have.' type="text" required>
+            </ol>
+
+
+            <input type="submit" value="Check Answers">
+            <input class="giveupinput" id="closetest1" value="give up">
+          </form>
+      </div>
+    </div>
+
+
+
+
+    <!-- words uestions -->
+    <div class="pretest" id="intermediattest2">
+      <h3>Start your vocabulary test</h3>
+      <div class="question">
+        <form action="https://formspree.io/f/xvgvrzll" method="POST">
+          <!-- question should be placed here -->
+          <ol>
+            <li>What is the opposite of "hot"?</li> 
+            <input name='What is the opposite of hot?' type="text" required>
+
+            <li>What does the word "brave" mean?</li> 
+            <input name='What does the word brave mean?' type="text" required>
+
+            <li>Find the synonym of "happy".</li> 
+            <input name='Find the synonym of happy' type="text" required>
+
+            <li>What is the plural of "child"?</li> 
+            <input name='What is the plural of child' type="text" required>
+
+            <li>What does "ancient" mean?</li> 
+            <input name='What does ancient mean' type="text" required>
+
+            <li>What is the opposite of "early"?</li> 
+            <input name='What is the opposite of early' type="text" required>
+
+            <li>Find the meaning of "difficult".</li> 
+            <input name='Find the meaning of difficult' type="text" required>
+
+            <li>What is a synonym for "fast"?</li> 
+            <input name='What is a synonym for fast' type="text" required>
+
+            <li>What does "beautiful" mean?</li> 
+            <input name='What does beautiful mean' type="text" required>
+
+            <li>What is the opposite of "clean"?</li> 
+            <input name='What is the opposite of clean' type="text" required>
+
+            <li>Find a synonym for "big".</li> 
+            <input name='Find a synonym for big' type="text" required>
+
+            <li>What does "empty" mean?</li> 
+            <input name='What does empty mean' type="text" required>
+
+            <li>What is the opposite of "dark"?</li> 
+            <input name='What is the opposite of dark' type="text" required>
+
+            <li>What does the word "tired" mean?</li> 
+            <input name='What does the word tired mean' type="text" required>
+
+            <li>Find the meaning of "cheap".</li> 
+            <input name='Find the meaning of cheap' type="text" required>
+
+            <li>What is the opposite of "strong"?</li> 
+            <input name='What is the opposite of strong' type="text"required>
+
+            <li>Find a synonym for "smart".</li> 
+            <input name='Find a synonym for smart' type="text" required>
+
+            <li>What does "quiet" mean?</li> <input name='What does quiet mean' type="text" required>
+
+            <li>What is the plural of "mouse"?</li> 
+            <input name='What is the plural of mouse' type="text" required>
+
+            <li>What does the word "lazy" mean?</li> 
+            <input name='What does the word lazy mean' type="text" required>
+
+            <li>Find the opposite of "short".</li> 
+            <input name='Find the opposite of short' type="text" required>
+
+            <li>What does "delicious" mean?</li> 
+            <input name='What does delicious mean' type="text" required>
+
+            <li>Find the meaning of "honest".</li> 
+            <input name='Find the meaning of honest' type="text" required>
+
+            <li>What is the opposite of "safe"?</li> 
+            <input name='What is the opposite of safe' type="text" required>
+
+            <li>Find a synonym for "funny".</li> 
+            <input name='Find a synonym for funny' type="text" required>
+
+            <li>What does "noisy" mean?</li> 
+            <input name='What does noisy mean' type="text" required>
+
+            <li>What is the opposite of "happy"?</li> 
+            <input name='What is the opposite of happy' type="text" required>
+
+            <li>Find the plural of "tooth".</li> 
+            <input name='Find the plural of tooth' type="text" required>
+            
+            <li>What does "cold" mean?</li> 
+            <input name='What does cold mean' type="text" required>
+          </ol>
+
+
+          <input type="submit" value="Check Answers">
+          <input class="giveupinput" id="closetest2" value="give up">
+        </form>
+      </div>
+    </div>
+
+
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
