@@ -1,3 +1,5 @@
+
+alert('this site was updated on 2025')
 // nav bar script codes
 let opennav = document.getElementById('opennavbutton');
 let closenav = document.getElementById('closenavbutton');
